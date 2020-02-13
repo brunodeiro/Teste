@@ -1,0 +1,48 @@
+/* Comentario */
+
+*{
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: indigo;
+    height: 80px;
+    padding: 20PX;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    background-color: indigo;
+    clear: both;
+    height: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+/* ID - identificado usando # */
+#div_esquerda{
+    background-color: crimson;
+    width: 60%;
+    min-height: 200px;
+    float: left;
+}
+#div_direita{
+    background-color: rgb(28, 226, 28);
+    width: 40%;
+    min-height: 200px;
+    float: right;
+}
+
+/* CLASS identificado usando . */
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
